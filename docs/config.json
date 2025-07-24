@@ -1,0 +1,260 @@
+{
+  "assemblies": [
+    {
+      "name": "Hap1 Genome",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Hap1 Genome-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "out.hic.hap1.p_ctg.fa.sort.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "out.hic.hap1.p_ctg.fa.sort.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "repeatmasker",
+      "name": "RepeatMasker",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "out.hic.hap1.p_ctg.fa.sort.fasta.out.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "braker_rnaseq",
+      "name": "braker_rnaseq",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "braker_rnaseq_isoseq",
+      "name": "braker_rnaseq_isoseq",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_isoseq_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "braker_rnaseq_isoseq_protein-clytia",
+      "name": "braker_rnaseq_isoseq_protein-clytia",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_isoseq_protein-clytia_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "braker_rnaseq_isoseq_protein-metazoa",
+      "name": "braker_rnaseq_isoseq_protein-metazoa",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_isoseq_protein-metazoa_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "braker_rnaseq_isoseq_protein",
+      "name": "braker_rnaseq_isoseq_protein",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_isoseq_protein_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "braker_rnaseq_protein-clytia",
+      "name": "braker_rnaseq_protein-clytia",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_protein-clytia_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "braker_rnaseq_protein-metazoa",
+      "name": "braker_rnaseq_protein-metazoa",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_protein-metazoa_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "braker_rnaseq_protein",
+      "name": "braker_rnaseq_protein",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_protein_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "hydra",
+      "name": "Hydra miniprot",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "HydraAEP_miniprot.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "nematostella",
+      "name": "Nematostella miniprot",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "NV2_miniprot.named.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "clytia",
+      "name": "Clytia miniprot",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "ClytiaV1_miniprot.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "hydractinia",
+      "name": "Hydractinia miniprot",
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "HsymV1_miniprot.gff",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "rnaseq_coverage",
+      "name": "RNA-seq coverage",
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "uri": "rnaseq_hap1.bw",
+          "locationType": "UriLocation"
+        }
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Hap1 Genome-index",
+      "ixFilePath": {
+        "uri": "trix/Hap1 Genome.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Hap1 Genome.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Hap1 Genome_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Hap1 Genome"
+      ]
+    }
+  ]
+}

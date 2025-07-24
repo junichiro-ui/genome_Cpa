@@ -1,0 +1,255 @@
+{
+  "dateCreated": "2025-07-07T01:13:47.903Z",
+  "tracks": [
+    {
+      "trackId": "repeatmasker",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "out.hic.hap1.p_ctg.fa.sort.fasta.out.gff",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "braker_rnaseq",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "braker_rnaseq_isoseq",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_isoseq_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "braker_rnaseq_isoseq_protein-clytia",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_isoseq_protein-clytia_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "braker_rnaseq_isoseq_protein-metazoa",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_isoseq_protein-metazoa_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "braker_rnaseq_isoseq_protein",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_isoseq_protein_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "braker_rnaseq_protein-clytia",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_protein-clytia_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "braker_rnaseq_protein-metazoa",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_protein-metazoa_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "braker_rnaseq_protein",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "rnaseq_protein_braker.gff3",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "hydra",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "HydraAEP_miniprot.gff",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "nematostella",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "NV2_miniprot.named.gff",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "clytia",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "ClytiaV1_miniprot.gff",
+          "locationType": "UriLocation"
+        }
+      }
+    },
+    {
+      "trackId": "hydractinia",
+      "attributesIndexed": [
+        "Name",
+        "id",
+        "target"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "HsymV1_miniprot.gff",
+          "locationType": "UriLocation"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "Hap1 Genome"
+  ]
+}
