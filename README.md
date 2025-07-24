@@ -18,6 +18,7 @@ gene modelはbraker3で生成した。
 | braker_rnaseq_isoseq_protein-clytia | + | + | + | + | - |
 | braker_rnaseq_protein-metazoa | + | - | - | - | + |
 | braker_rnaseq_isoseq_protein-metazoa | + | + | - | - | + |
+
 RNAseqデータは谷本先生、竹田先生、中嶋Gのデータをまとめたものを使用
 中嶋Gが持つisoseqデータは3'末端付近の短い断片が多くフルレングスが少なかった。信頼性には疑問もあるため、信頼性スコアは100（中程度？）で使用。
 Nematostella vectensisのproteomeは[こちら](https://simrbase.stowers.org/starletseaanemone)からダウンロードした。
